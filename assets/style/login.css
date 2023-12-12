@@ -1,0 +1,14 @@
+.logo { 
+    text-align: center;
+    margin: 30px 0;
+}
+
+.logo img { 
+}
+
+.login-wrap {
+    width: 500px;
+    padding: 20px;
+    border: 1px solid rgb(104, 104, 104);
+    border-radius: 3px;
+}
