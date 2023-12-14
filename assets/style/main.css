@@ -6,11 +6,23 @@
 
 a {
     text-decoration: none;
+    color: black;
 }
 
 main {
     width: 100%;
 }
+
+
+.row {
+    justify-content: flex-start; 
+    --bs-gutter-x: 0;
+}
+
+.row > * {
+    padding: 0;
+}
+
 
 .container {
     max-width: 600px;
@@ -63,6 +75,7 @@ main {
     background-color: #F8D9D9;
     text-align: center;
     cursor: pointer;
+    font-weight: 600;
 }
 
 .line {

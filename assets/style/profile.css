@@ -1,8 +1,97 @@
+main {
+    display: flex;
+    justify-content: space-between;
+}  
+
+.pro-container {
+    width: 80%;
+    margin: 0 auto;
+} 
+ 
+.sub-container {
+    width: 975px;
+    padding: 30px 20px 0;
+    margin: 0 auto;
+} 
+
+.profile-content-wrap {
+    width: 100%;
+    height: 215px;
+    display: flex;
+    justify-content: space-between; 
+    border-bottom: 1px solid rgb(202, 202, 202);
+    margin-bottom: 70px; 
+}
+ 
+.profile-img {
+    width: 30%;
+    margin: 0 auto;
+}
+
+.profile-img img {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    position: relative;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.profile-content {
+    width: 70%;
+}
+
+.profile {
+    margin-bottom: 20px;
+}
+
+.profile > div {
+    margin-right: 15px;
+}
+
+.profile .name {
+    font-size: 1.25rem;
+}
+ 
+.post-fllow {
+    margin-bottom: 20px;
+}
+
+.post-fllow ul {
+    list-style: none;
+    padding: 0;
+}
+ 
+
+.post-fllow ul li {
+    margin-right: 20px;
+}
+
+
+
+ 
+
+  
 .profile-post-container {
     display: flex;
     justify-content: space-around;
+    position: relative; 
+    top: 10px;
 }
 
-.profile-post {
-    width: 30%;
+.my-post-list {
+    position: absolute;
+    top: -45px;
+    left: 5px;
+    font-size: 1.375rem;
+    font-weight: 600;
 }
+
+.post-container { 
+    min-width: 300px;
+    height: 300px;
+    background-color: red;
+    margin : 10px 5px;
+}
+

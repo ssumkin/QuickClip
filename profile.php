@@ -3,67 +3,106 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0"> 
+    <link rel="stylesheet" href="assets/style/profile.css">
 </head>
 <body>
 
     <?php include 'header.php' ?>
 
     <main>
-        <nav>
-            <div class="logo">
-                <img src="assets/images/logo.png" alt="">
-            </div>
-            <div class="">
-                <div id="profile">
-                    <a href="profile.php">프로필</a>
-                </div>
-                <div id="upload">
-                    <a href="upload.php">업로드</a>
-                </div>
-                <div id="search">
-                    <a href="">검색</a>
-                    <div>평소엔 안보이다가 버튼 누르면 샤샤삭 뜨는거</div>
-                </div>
-            </div>
-            
-            <div>
-                <div id="message">
-                    <a href="massage.php">메세지</a>
-                </div>
-                <div id="alarm">
-                    <a href="">알람</a>
-                    <div>평소엔 안보이다가 버튼 누르면 샤샤삭 뜨는거</div>
-                </div>
-            </div>
-            
-            <div>
-                <div id="logout">
-                    <a href="logoutAction.php">로그아웃</a>
-                </div>
-            </div>
-        </nav>
+        <?php include 'nav.html' ?>
 
-        <div class="container">
-            <div class="profile-content">
-                <div class="profile-img">
-                    <img src="" alt="">
-                </div>
 
-                <div></div>
 
-            </div>
+        <div class="pro-container">
+            <div class="sub-container">
+                <div class="profile-content-wrap">
+                    <div class="profile-img">
+                        <img src="assets/images/default_profile.png" alt="">
+                    </div>
+                        
+                    <div class="profile-content">
+                        <div class="profile row row-cols-auto">
+                            <div class="name col">
+                                sungjae926
+                            </div>
 
-            <div class="profile-post-container">
-                <div class="profile-post">
-                    <a href="">
-                        <div>
-                            <img src="" alt="">
+                            <div class="profile-modify col">
+                                <a href="">
+                                    프로필 편집
+                                </a>
+                            </div>
+
+                            <div class="fllow-button col">
+                                팔로우
+                                팔로잉
+                            </div>
+
+                            <div class="massage-button col">
+                                메세지 보내기
+                            </div>
+
                         </div>
-                    </a>
+
+                        <div class="post-fllow">
+                            <ul class="row row-cols-auto">
+                                <li class="col">게시물 <span class="post-count"></span></li>
+                                <li class="col">팔로워 <span class="fllower"></span></li>
+                                <li class="col">팔로우 <span class="fllow"></span></li>
+                            </ul>
+                        </div>
+
+                        <div class="public-relations">
+                        🧗🏻‍♂️ @uzzuguzz <br>
+                        운동일기 <br>
+                        🏋🏻‍♂️ S.135kg / B.85kg / D.150kg
+                        </div>
+                    </div>
+
                 </div>
 
+                <div class="profile-post-container row row-cols-auto"> 
+                    <div class="my-post-list">
+                        게시물
+                    </div>
+                    <div class="post-container col"> 
+                        <a href="">
+                            <img src="" alt="">
+                        </a>
+                    </div>
+
+                    <div class="post-container col">
+                        <a href="">
+                            <img src="" alt="">
+                        </a>
+                    </div>
+
+                    <div class="post-container col">
+                        <a href="">
+                            <img src="" alt="">
+                        </a>
+                    </div>
+
+                    <div class="post-container col">
+                        <a href="">
+                            <img src="" alt="">
+                        </a>
+                    </div>
+                    
+                    <div class="post-container col">
+                        <a href="">
+                            <img src="" alt="">
+                        </a>
+                    </div>
+
+ 
+                </div>
             </div>
         </div>
     </main>
+
+   
+
+    <?php include 'footer.php' ?>
 </body>
 </html>

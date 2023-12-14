@@ -1,0 +1,42 @@
+nav {
+    width: 20%;
+    max-width: 335px;
+    padding: 12px;
+    border-right: .0938rem solid rgb(197, 197, 197);
+}
+
+nav .logo {
+    margin: 30px 30px 30px 15px;
+}
+
+nav .logo img {
+    width: 120px;
+}
+
+nav div div div {
+    height: 50px; 
+    margin: 10px 7px;
+}
+
+nav div div div a {
+    line-height: 50px;
+    display: block;  
+    font-size: 18px;
+    padding-left: 10px;
+    border-radius: 10px;
+}
+
+nav div div div a:hover {
+    background-color: #f2f2f2;
+}
+
+nav div div div a i, img  {  
+    font-size: 20px;
+    margin-right: 10px;
+}
+
+#profile img {
+    width: 24px;
+    height: 24px;
+    border-radius: 50%;
+}
