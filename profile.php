@@ -12,6 +12,14 @@
     <main>
         <?php include 'nav.html' ?>
 
+<<<<<<< HEAD
+=======
+        <div class="profile-container">
+            <div class="profile-content">
+                <div class="profile-img">
+                    <img src="" alt="">
+                </div>
+>>>>>>> 82b9dae58aea02e06fcc52de72f24f6ab135e8b3
 
 
         <div class="pro-container">
@@ -42,6 +50,14 @@
                                 메세지 보내기
                             </div>
 
+<<<<<<< HEAD
+=======
+            <div class="profile-post-container">
+                <div class="profile-post">
+                    <a href="">
+                        <div class="post-thumbnail">
+                            <img src="" alt="">
+>>>>>>> 82b9dae58aea02e06fcc52de72f24f6ab135e8b3
                         </div>
 
                         <div class="post-fllow">
