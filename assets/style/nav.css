@@ -1,8 +1,13 @@
-nav {
+nav { 
     width: 20%;
-    max-width: 335px;
+    max-width: 335px; 
     padding: 12px;
     border-right: .0938rem solid rgb(197, 197, 197);
+}
+
+nav > div {
+    position: fixed;
+    width: 280px;
 }
 
 nav .logo {
@@ -15,7 +20,7 @@ nav .logo img {
 
 nav div div div {
     height: 50px; 
-    margin: 10px 7px;
+    margin: 9px 7px;
 }
 
 nav div div div a {
@@ -39,4 +44,9 @@ nav div div div a i, img  {
     width: 24px;
     height: 24px;
     border-radius: 50%;
+}
+
+#logout {
+    position: relative;
+    bottom: -230px;
 }

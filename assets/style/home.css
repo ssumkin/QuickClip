@@ -1,0 +1,105 @@
+main {
+    display: flex;
+    justify-content: space-between;
+}  
+
+.pro-container {
+    width: 80%;
+    margin: 0 auto;
+} 
+ 
+.sub-container {
+    width: 975px;
+    padding: 30px 20px 0;
+    margin: 0 auto;
+} 
+
+.post-container {
+    width: 470px; 
+    margin-top: 30px;
+    position: relative;
+    left: 50%;
+    transform: translateX(-50%);
+    border-bottom: 1px solid rgb(191, 191, 191);
+}
+
+.profile-wrap {
+    width: 100%;
+    height: 32px;
+    margin: 12px;
+} 
+
+.profile-wrap .profile-img-wrap {
+    height: 32px; 
+} 
+
+.profile-wrap .profile-img-wrap img {
+    width: 32px;
+    border-radius: 50%;
+}
+
+.profile-name-wrap {
+    line-height: 26px;
+    font-size: .875rem;
+    font-weight: 600;
+    margin-right: 6px;
+}
+
+.upload-time-wrap {
+    color: #737373;
+    line-height: 26px;
+}
+
+
+/* 사진 동영상 부분 */
+.content-wrap {
+    width: 100%;
+    margin-bottom: 5px;
+}
+
+.content-wrap .content {
+    width: 100%;
+}
+
+.content-wrap .content img {
+    width: 100%;
+    margin: 0;
+} 
+
+.reaction-wrap {
+    width: 100%;
+    font-size: 24px;
+    margin-bottom: 10px;
+}
+
+.reaction-wrap .col {
+    margin-right: 15px;
+}
+
+.reaction-wrap .col i:hover {
+    cursor: pointer;
+    color: #737373;
+}
+
+.save-wrap.col {
+    margin-left: auto;
+    margin-right: 2px;
+}
+
+
+.content-text-wrap {
+    min-height: 40px;
+}
+
+.content-text-wrap .name {
+    font-size: .875rem;
+    font-weight: 600;
+}
+
+
+.coment-wrap textarea {
+    width: 100%;
+    height: 30px;
+    font-size: 14px;
+    resize: none;
+}
