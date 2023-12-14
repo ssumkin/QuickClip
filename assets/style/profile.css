@@ -1,7 +1,6 @@
 main {
     display: flex;
     justify-content: space-between;
- 
 }  
 
 .pro-container {
@@ -72,16 +71,9 @@ main {
 
 
  
- 
 
- 
-
-.profile-container {
-    width: 70%;
-}
- 
+  
 .profile-post-container {
-    width: 100%;
     display: flex;
     justify-content: space-around;
     position: relative; 
