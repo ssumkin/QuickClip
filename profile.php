@@ -3,6 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0"> 
+    <link rel="stylesheet" href="assets/style/profile.css">
 </head>
 <body>
 
@@ -43,7 +44,7 @@
             </div>
         </nav>
 
-        <div class="container">
+        <div class="profile-container">
             <div class="profile-content">
                 <div class="profile-img">
                     <img src="" alt="">
@@ -56,7 +57,7 @@
             <div class="profile-post-container">
                 <div class="profile-post">
                     <a href="">
-                        <div>
+                        <div class="post-thumbnail">
                             <img src="" alt="">
                         </div>
                     </a>
